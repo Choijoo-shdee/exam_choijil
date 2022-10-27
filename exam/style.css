@@ -1,0 +1,141 @@
+body{
+    font-family: 'Poppins';
+}
+
+.container{
+    width: 1789px;
+    margin: 0;
+}
+
+.child{
+    display: flex;
+    flex: 1;
+}
+
+
+.hero{
+    display: flex;
+    flex:1;
+}
+
+.hero-click{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000;
+}
+
+/* header */
+.picture{
+    background-image: url(./Desktop/image\ 1.png);
+    width: 1789px;
+    height: 1080px;
+    position: relative;
+}
+
+.click{
+    position: absolute;
+    top: 982px;
+    bottom: 50px;
+    left: 1746px; 
+    right: 126px;
+}
+
+/* section */
+
+.section-bar{
+    display: flex;
+    height: 486px;
+    width: 1789px;
+}
+
+.section-pic1{
+    background-image: url(./Desktop/folded.png);
+    width: 50%;
+    flex: 1;
+}
+
+.section-pic2{
+    background-image: url(./Desktop/image\ 6.png);
+    width: 50%;
+    flex: 1;
+    padding-right: 30px;
+    padding-top: 34px;
+}
+ 
+.section-pic1{
+    padding-top: 34px;
+    padding-left: 32px;
+}
+
+/* image-section*/
+.section-images{
+    display: flex;
+    height: 480px;
+    width: 100%;
+}
+
+.blue{
+    background-color:rgb(18, 18, 159);
+    background-image: url(./Desktop/image\ 8.png);
+    background: cover;
+    flex: 1;
+}
+
+.phones{
+    background-image: url(./Desktop/image\ 7.png);
+    background: cover;
+    background-color:aliceblue;
+    flex: 1;
+}
+.sam{
+    background-color: aliceblue;
+    background: cover;
+    background-image: url(./Desktop/image\ 9.png);
+    flex: 1;
+}
+
+.handphone{
+    background-color: aliceblue;
+    background: cover;
+    background-image: url(./Desktop/image\ 10.png);
+    flex: 1;
+}
+
+.phones p{
+    padding-top: 400px;
+    padding-right: 159px;
+    padding-left: 159px;
+    padding-bottom: 60px;
+}
+
+.blue p{
+    padding-top: 400px;
+    padding-right: 159px;
+    padding-left: 159px;
+    padding-bottom: 60px;
+}
+
+.handphone p{
+    padding-top: 400px;
+    padding-right: 159px;
+    padding-left: 159px;
+    padding-bottom: 60px;
+}
+
+.sam p{
+    padding-top: 400px;
+    padding-right: 159px;
+    padding-left: 159px;
+    padding-bottom: 60px;
+}
+
+.section-images2{
+    display: flex;
+}
+
+.last{
+    display: flex;
+}
